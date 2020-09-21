@@ -20,15 +20,6 @@
 
 
     <!-- ===========================
-    FAVICONS
-    =========================== -->
-    <link rel="icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-touch-icon-ipad-retina.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="static/img/apple-touch-icon-iphone-retina.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-touch-icon-iphone.png" />
-
-    <!-- ===========================
     STYLESHEETS
     =========================== -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
@@ -66,7 +57,7 @@
                             <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
                             <li><a href="resume.html">Resume<span class="sr-only">(current)</span></a></li>
                             <li><a href="projects.html">Projects</a></li>
-                            <li><a href="about.html">About</a></li>
+                            <!-- <li><a href="about.html">About</a></li> -->
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
@@ -83,18 +74,24 @@
         <div id="job" class="row mobmid">
                 <div class="col-sm-11">
                     <h3>Projects</h3>
-
                     <div class="award">
                         <p class="sub"><a href="">Graph Based Visual SLAM</a></p>
                         <ul>
-                            <li></li>
-                            <li>></li>
+                            <li>Based on G2O - general graph optimization framwork, the project implements a key-frame based visual odometry SLAM frontend. It uses 3D-2D matching for solving bundle adjsuments on a ELP stereo camera. 3D dense point cloud of key frame is visualized.</li>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/U2tNnIMUweI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </ul>
+                        <p class="sub"><a href="https://github.com/hbd730/quadcopter-simulation">Quacopter Simulation</a></p>
+                        <ul>
+                            <li>The open source project receives great popularity among the drone and robotics community. It Models and
+                                simulates quadcopter’s dynamics and control the quacopter to follow a desired 3D trajectory. </li>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jlmXEo9Jmxc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        </ul>
+                        <p class="sub"><a href="https://github.com/hbd730/quacopter-camera-control">Vision-based quadcopter real time position control</a></p>
+                        <ul>
+                            <li>The project tracks and controls the position of a quadcopter with a color ball using monocular camera in real time. </li>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gsH1JjfWzX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                      
                         </ul>
                     </div>
-
-                    
                 </div><!--Job experiences end-->
             </div><!--Job experiences end-->
         </div><!--left end-->
-
     </body>
